@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color:#777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+nav li{
+    display:inline;
+}
+nav a{
+   display:inline-block;
+   padding: 0.5rem 0.75rem;
+   color: white;
+   text-decoration:none;
+}
+
+nav a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.main-nav li{
+    padding: 0 0.75rem;
+}
+
+.main-header {
+    background-image: url(asset/bghead.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0 1.5rem;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    font-family: 'BooterZeroZero', 'monospace', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.band-name-large{
+    font-size: 4.5rem;
+}
+.content-section{
+    margin: 2rem 0;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.section-header{
+    font-family: 'BooterZeroZero', 'monospace', sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-image{
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin: 0 1rem 1rem 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #6065f0;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.main-footer-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.main-footer-container ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer .footer-nav li{
+    margin: 0;
+}
+.footer-nav img{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
