@@ -155,5 +155,17 @@ footer .footer-nav li{
     padding-right: 2em  ;
 }
 
+.btn-play{ 
+    margin: 0 auto;
+    display:block;
+    color: #209cdb;
+    font-size: 1cm;
+    border-radius: 50%;
+    padding:0;
+    width: 100px;
+    height: 100px;
+
+}
+
 /* the main  */
 /* for  git  */
