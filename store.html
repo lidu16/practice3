@@ -3,196 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tedy afro|store</title>
+    <title>Tedy Afro | Store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</li>
-                <li><a href="store.html">STORE</li>
-                <li><a href="about.html">ABOUT</li>
 
-            </ul>
-        </nav>
-        <hr>
-        <h1>Tedy Afro</h1>
-    </header>
-    <section>
-        <h2>MUSIC</h2>
-        <div>
-        <div>
-            <strong>Album 1</strong>
-
-        </div>
-
-        <img src="asset/image2.png" alt="album1">
-        <div>
-            <span>$100</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-         <div>
-        <div>
-            <strong>Album 2</strong>
-
-        </div>
-
-        <img src="asset/image1.png" alt="album1">
-        <div>
-            <span>$200</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-         <div>
-        <div>
-            <strong>Album 3</strong>
-
-        </div>
-
-        <img src="asset/image3.png" alt="album1">
-        <div>
-            <span>$100</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-         <div>
-        <div>
-            <strong>Album 4</strong>
-
-        </div>
-
-        <img src="asset/image4.png" alt="album1">
-        <div>
-            <span>$100</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-    </section>
-
-
-     <div>
-        <div>
-            <strong>Album 3</strong>
-
-        </div>
-
-        <img src="asset/image3.png" alt="album1">
-        <div>
-            <span>$100</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-         <div>
-        <div>
-            <strong>Album 4</strong>
-
-        </div>
-
-        <img src="asset/image4.png" alt="album1">
-        <div>
-            <span>$100</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-    <section>
-        <h2>MERCH</h2>
-        
-         <div>
-        <div>
-            <strong>t-shirt</strong>
-
-        </div>
-
-        <img src="asset/t-shirt.png" alt="album1">
-        <div>
-            <span>$500</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-        
-         <div>
-        <div>
-            <strong>cofee cup</strong>
-
-        </div>
-
-        <img src="asset/coffee.png" alt="album1">
-        <div>
-            <span>$10</span>
-            <button role="button">ADD TO CART</button>
-        </div>
-        </div>
-
-
-
-         
-    </section>
-
-
-    <section>
-        <h2>CART</h2>
-
-        <div>
-            <strong>ITEM</strong>
-            &lt;&gt;
-            <strong>PRICE</strong>
-            &lt;&gt;
-            <strong>QUANTITY</strong>
-        </div>
-
-
-        <div>
-            <img src="asset/t-shirt.png" width="100" height="100">
-            <span>T-shirt</span>
-            &lt;&gt;
-            <span>$500</span>
-            &lt;&gt;
-            <input type="number" value="1">
-            <button role="button">REMOVE</button>
-        </div>
-
-
-         <div>
-            <img src="asset/image3.png" width="100" height="100">
-            <span>Album 3</span>
-            &lt;&gt;
-            <span>$100/span>
-            &lt;&gt;
-            <input type="number" value="2">
-            <button role="button">REMOVE</button>
-        </div>
-        <hr>
-        <div>
-            <strong>TOTAL</strong>
-            <span>$600</span>
-        </div>
-
-        <div>
-            <button role="button">PURCHASE</button>
-        </div>
-
-
-        <div></div>
-    </section>
-
-    <footer>
-        <h3>tedy afro</h3>
+<header class="main-header">
+    <nav class="nav main-nav">
         <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="store.html">STORE</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <h1 class="band-name band-name-large">Tedy Afro</h1>
+</header>
+
+<!-- MUSIC -->
+<section class="container content-section">
+    <h2 class="section-header">MUSIC</h2>
+
+    <div class="shop-items">
+
+        <div class="shop-item">
+            <span class="shop-item-title">Album 1</span>
+            <img class="shop-item-image" src="asset/image2.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$100</span>
+                <button class="btn btn-primary shop-item-button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="shop-item">
+            <span class="shop-item-title">Album 2</span>
+            <img class="shop-item-image" src="asset/image1.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$200</span>
+                <button class="btn btn-primary shop-item-button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="shop-item">
+            <span class="shop-item-title">Album 3</span>
+            <img class="shop-item-image" src="asset/image3.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$100</span>
+                <button class="btn btn-primary shop-item-button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="shop-item">
+            <span class="shop-item-title">Album 4</span>
+            <img class="shop-item-image" src="asset/image4.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$100</span>
+                <button class="btn btn-primary shop-item-button">ADD TO CART</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- MERCH -->
+<section class="container content-section">
+    <h2 class="section-header">MERCH</h2>
+
+    <div class="shop-items">
+
+        <div class="shop-item">
+            <span class="shop-item-title">T-Shirt</span>
+            <img class="shop-item-image" src="asset/t-shirt.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$500</span>
+                <button class="btn btn-primary shop-item-button">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="shop-item">
+            <span class="shop-item-title">Coffee Cup</span>
+            <img class="shop-item-image" src="asset/coffee.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$10</span>
+                <button class="btn btn-primary shop-item-button">ADD TO CART</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+        <div class="container main-footer-container">
+        <h3 class="band-name">tedy afro</h3>
+        <ul class="nav footer-nav">
 
             <li>
                 <a href="https://www.facebook.com" target="_blank"><img src="asset/facebook.png" alt="facebook"></a></li>
@@ -201,7 +105,8 @@
             <li>
                 <a href="https://www.spotify.com" target="_blank"><img src="asset/spotify.png" alt="spotify"></a></li>
         </ul>
+        </div>
     </footer>
-    
+
 </body>
 </html>
