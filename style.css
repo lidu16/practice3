@@ -6,7 +6,9 @@
     font-family: 'Raleway', sans-serif;
     color:#777;
 }
-
+a {
+    text-decoration: none;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -63,6 +65,7 @@ nav a:hover{
     font-family: 'BooterZeroZero', 'monospace', sans-serif;
     font-weight: 600;
     color: white;
+
 }
 
 .band-name-large{
@@ -96,7 +99,7 @@ nav a:hover{
 }
 
 .footer{
-    background-color: #6065f0;
+    background-color: #209cdb;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -164,7 +167,77 @@ footer .footer-nav li{
     padding:0;
     width: 100px;
     height: 100px;
+    text-decoration: none;
 
+}
+.tour-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.5cm;
+    text-decoration: none;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    padding: 0 0.5rem;
+    text-decoration: none;
+}
+.tour-date{
+    color:#555;
+    font-weight: bold;
+    flex-basis: 11%;
+    text-decoration: none;
+}
+.tour-city{
+    flex-basis: 24%;
+    text-decoration: none;
+}
+.tour-arena{
+    flex-basis: 42%;
+    text-decoration: none;
+}
+.tour-btn{
+    flex-basis: 19%;
+    text-decoration: none;
+}
+
+.btn.primary{
+    background-color: #209cdb;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    border-radius: 0.3em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn.primary:hover{
+    background-color: #1a7aa8;
+}
+
+.btn.tour-btn,
+.btn.tour-item.tour-btn {
+    background-color: #209cdb;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.65em 1em;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn.tour-btn:hover,
+.btn.tour-item.tour-btn:hover {
+    background-color: #1a7aa8;
 }
 
 /* the main  */
